@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>netcoreapp3.1-windows</TargetFramework>
+        <UseWPF>true</UseWPF>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Hardcodet.NotifyIcon.Wpf" Version="1.1.0" />
+      <PackageReference Include="Microsoft.Xaml.Behaviors.Wpf" Version="1.1.31" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Resources" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Resources\high.ico" />
+      <Resource Include="Resources\high.ico" />
+      <None Remove="Resources\low.ico" />
+      <Resource Include="Resources\low.ico" />
+      <None Remove="Resources\mid.ico" />
+      <Resource Include="Resources\mid.ico" />
+      <None Remove="Resources\mute.ico" />
+      <Resource Include="Resources\mute.ico" />
+      <None Remove="Resources\no-device.ico" />
+      <Resource Include="Resources\no-device.ico" />
+    </ItemGroup>
+
+</Project>

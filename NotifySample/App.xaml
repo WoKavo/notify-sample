@@ -1,0 +1,13 @@
+﻿<Application x:Class="NotifySample.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:NotifySample"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <BitmapImage x:Key="High" UriSource="Resources/high.ico"/>
+        <BitmapImage x:Key="Mid" UriSource="Resources/mid.ico"/>
+        <BitmapImage x:Key="Low" UriSource="Resources/low.ico"/>
+        <BitmapImage x:Key="Mute" UriSource="/Resources/mute.ico"/>
+        <BitmapImage x:Key="NoDevice" UriSource="Resources/no-device.ico"/>
+    </Application.Resources>
+</Application>
